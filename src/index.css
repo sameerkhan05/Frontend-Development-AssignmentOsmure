@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+.bg-gradient-circle-red {
+  background: radial-gradient(circle, #FF0000 0%, transparent 100%);
+}
+
+.bg-gradient-circle-blue {
+  background: radial-gradient(circle, #0000FF 0%, transparent 100%);
+}
